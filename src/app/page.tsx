@@ -54,7 +54,7 @@ export default function Home() {
               {p.hero.ctas.primary.label}
             </a>
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="rounded-xl border border-emerald-500/30 px-4 py-2 text-emerald-100/80 hover:bg-emerald-500/10"
