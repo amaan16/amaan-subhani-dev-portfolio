@@ -175,7 +175,7 @@ export const portfolio: PortfolioData = {
   ],
   projects: [
     {
-      title: "AI-Driven Stock Portfolio Management Platform",
+      title: "AI-Driven Stock Portfolio Management Platform - In Progress",
       subtitle: "Personalized insights with AI + portfolio analytics",
       description:
         "A backend-driven platform for stock discovery, historical analysis, portfolio tracking, and AI-powered recommendations.",
@@ -190,6 +190,19 @@ export const portfolio: PortfolioData = {
         // github: "https://github.com/amaan16/your-repo",
       },
       image: "/projects/stock-portfolio.png",
+      featured: true,
+    },
+    {
+      title: "Distributed Key-Value Store",
+      subtitle: "In Progress",
+      description:
+        "A fault-tolerant distributed key-value store focused on consistency, availability, and high-concurrency request handling.",
+      bullets: [
+        "Building a multi-threaded distributed key-value store in Java using gRPC for inter-node communication, with Raft consensus for leader election and log replication across 5+ nodes.",
+        "Designing intelligent load balancing and parallel request processing to support high-concurrency client operations while maintaining high availability under load.",
+      ],
+      tech: ["Java", "gRPC", "Multi-threading", "Raft Consensus"],
+      links: {},
       featured: true,
     },
   ],
